@@ -23,7 +23,7 @@ function actualizar(){
 }
 
 function actualizarFicha(){
-    document.getElementById("titulo").innerHTML=recupera.medico;
+    document.getElementById("name").innerHTML=recupera.medico;
     document.getElementById("cedulas").innerHTML=recupera.cedulaprofe;
     document.getElementById("nombre-paciente").innerHTML=recupera.paciente;
     document.getElementById("fechat").innerHTML=recupera.fechareceta;
